@@ -1,0 +1,210 @@
+$bgColor: #eaeaea;
+$text: #ffffff;
+
+$r0Color: #3b82f6;
+$r1Color: #f59e0b;
+$r2Color: #ef4444;
+$r3Color: #10b981;
+$r4Color: #6366f1;
+$r5Color: #8b5cf6;
+$r6Color: #ec4899;
+$r7Color: #6b7280;
+
+body {
+  background-color: $bgColor;
+}
+
+button {
+  color: $text;
+  padding: 12px;
+  font-weight: bold;
+  background-color: gray;
+  border: none;
+  border-radius: 5px;
+}
+
+.row {
+  padding: 20px;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn3d {
+  height: 40px;
+  border-radius: 5px;
+}
+
+#r0 {
+  button {
+    background-color: $r0Color;
+  }
+
+  .c0 {
+    background-color: transparent;
+    border: $r0Color 1px solid;
+    color: $r0Color;
+  }
+
+  .btn3d {
+    background-color: $r0Color;
+  }
+}
+
+#r1 {
+  button {
+    background-color: $r1Color;
+  }
+
+  .c0 {
+    background-color: transparent;
+    border: $r1Color 1px solid;
+    color: $r1Color;
+  }
+
+  .btn3d {
+    background-color: $r1Color;
+  }
+}
+
+#r2 {
+  button {
+    background-color: $r2Color;
+  }
+
+  .c0 {
+    background-color: transparent;
+    border: $r2Color 1px solid;
+    color: $r2Color;
+  }
+
+  .btn3d {
+    background-color: $r2Color;
+  }
+}
+
+#r3 {
+  button {
+    background-color: $r3Color;
+  }
+
+  .c0 {
+    background-color: transparent;
+    border: $r3Color 1px solid;
+    color: $r3Color;
+  }
+
+  .btn3d {
+    background-color: $r3Color;
+  }
+}
+
+#r4 {
+  button {
+    background-color: $r4Color;
+  }
+
+  .c0 {
+    background-color: transparent;
+    border: $r4Color 1px solid;
+    color: $r4Color;
+  }
+
+  .btn3d {
+    background-color: $r4Color;
+  }
+}
+
+#r5 {
+  button {
+    background-color: $r5Color;
+  }
+
+  .c0 {
+    background-color: transparent;
+    border: $r5Color 1px solid;
+    color: $r5Color;
+  }
+
+  .btn3d {
+    background-color: $r5Color;
+  }
+}
+
+#r6 {
+  button {
+    background-color: $r6Color;
+  }
+
+  .c0 {
+    background-color: transparent;
+    border: $r6Color 1px solid;
+    color: $r6Color;
+  }
+
+  .btn3d {
+    background-color: $r6Color;
+  }
+}
+
+#r7 {
+  button {
+    background-color: $r7Color;
+  }
+
+  .c0 {
+    background-color: transparent;
+    border: $r7Color 1px solid;
+    color: $r7Color;
+  }
+
+  .btn3d {
+    background-color: $r7Color;
+  }
+}
+
+.c1 {
+  filter: brightness(1.4);
+  opacity: 0.4;
+}
+
+.c2 {
+  filter: brightness(1.3);
+  opacity: 0.6;
+}
+
+.c3 {
+  filter: brightness(1.2);
+  opacity: 0.8;
+}
+
+.c4 {
+  filter: brightness(1.0);
+}
+
+.c5 {
+  filter: brightness(0.9);
+}
+
+.c6 {
+  filter: brightness(0.8);
+}
+
+.c7 {
+  filter: brightness(0.7);
+}
+
+.c8 {
+  filter: brightness(0.6);
+}
+
+.c9 {
+  filter: brightness(0.5);
+}
+
+.c10 {
+  border-radius: 30px;
+}
+.c11 {
+
+}
